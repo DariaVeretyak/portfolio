@@ -1,0 +1,26 @@
+.ibg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ibg--top {
+  -o-object-position: top;
+     object-position: top;
+}
+.ibg--bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+.ibg--left {
+  -o-object-position: left;
+     object-position: left;
+}
+.ibg--right {
+  -o-object-position: right;
+     object-position: right;
+}
+.ibg--contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
