@@ -35,7 +35,7 @@ let btnAnim = () => {
     repeatDelay: 3
   });
   tlMsgBtn.to('.button', { rotate: 5})
-    .to('.button', { rotate: -5})
+    .to('.button', { rotate: 0})
     .to('.button', { rotate: 5})
     .to('.button', { rotate: 0});
     return tlMsgBtn;
@@ -84,7 +84,7 @@ tl.from('.header__logo', {
   gsap.from('.technology-block', {
     scrollTrigger: {
       trigger: '.page__about',
-      start: '-20 center',
+      start: '0 center',
       end: "+=400px",
       scrub: true,
     },
